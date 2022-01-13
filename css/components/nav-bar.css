@@ -1,8 +1,39 @@
 .nav {
+	width: 100%;
+	position: fixed;
+	box-sizing: border-box;
+	bottom: 0;
 	padding: 20px 40px;
+	border-top: 1px solid rgb(80,80,88);
+	background-color: rgb(60,60,66);
 }
 
 .nav__list {
 	display: flex;
 	justify-content: space-between;
+}
+
+.nav__link {
+	position: relative;
+	text-decoration: none;
+}
+
+.nav__link i {
+	color: rgb(220,220,242);
+}
+
+.nav__notification {
+	font-weight: bold;
+	font-size: 12px;
+	background-color: red;
+	color: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: -10px;
+	top: -5px;
 }

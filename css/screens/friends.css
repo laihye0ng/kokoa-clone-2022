@@ -1,0 +1,13 @@
+.friends-display-link {
+	color: rgb(220, 220, 220);
+	padding: 15px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(60,60,66);
+}
+
+.friends-display-link i {
+	opacity: 0.3;
+	padding: 0 9px;
+}

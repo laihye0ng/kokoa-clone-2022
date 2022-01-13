@@ -1,4 +1,6 @@
 .status-bar {
+	width: 100%;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
 	font-size: 14px;

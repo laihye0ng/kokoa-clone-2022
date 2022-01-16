@@ -1,3 +1,5 @@
 :root {
 	--background: rgb(50,50,55);
+	--gray-text: rgba(255,255,255,0.5);
+	--horizontal-space: 25px;
 }

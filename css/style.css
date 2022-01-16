@@ -1,9 +1,10 @@
 /*components*/
+@import "components/variables.css";
 @import "components/reset.css";
 @import "components/status-bar.css";
-@import "components/variables.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -20,4 +21,8 @@ body {
 
 input:focus {
 	outline: none;
+}
+
+.main-screen {
+	padding: 0px var(--horizontal-space);
 }

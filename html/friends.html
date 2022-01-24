@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Welcome!</title>
+	<title>Friends - Kokoa Clone</title>
 	<link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
@@ -50,8 +50,8 @@
 		</div>
 		<div class="friends-screen__channel">
 			<div class="friends-screen__channel-header">
-				<span>Channel</span>
-				<i class="fas fa-chevron-up fa-xs"></i>
+				<span class="friends-screen__channel-header__text">Channel</span>
+				<i class="friends-screen__channel-header__text fas fa-chevron-up fa-xs"></i>
 			</div>
 			<div class="user-component">
 				<div class="user-component__column">
@@ -61,8 +61,10 @@
 					</div>
 				</div>
 				<div class="user-component__column">
-					<span>2</span>
-					<i class="fas fa-chevron-up fa-xs"></i>
+					<div class="friends-screen__channel-info">
+						<span class="friends-screen__channel-info__number">2</span>
+						<i class="friends-screen__channel-info__icon fas fa-chevron-up fa-xs"></i>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -77,7 +79,7 @@
 			</li>
 			<li class="nav__btn">
 				<a class="nav__link" href="chats.html">
-					<span class="nav__notification">1</span>
+					<span class="nav__notification badge">1</span>
 					<i class="far fa-comment fa-lg"></i>
 				</a>
 			</li>

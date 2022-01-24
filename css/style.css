@@ -1,4 +1,5 @@
 /*components*/
+@import "components/badge.css";
 @import "components/variables.css";
 @import "components/reset.css";
 @import "components/status-bar.css";
@@ -9,6 +10,8 @@
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
 
 * {
 	color: white;

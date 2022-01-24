@@ -23,17 +23,7 @@
 }
 
 .nav__notification {
-	font-weight: bold;
-	font-size: 12px;
-	background-color: red;
-	color: white;
-	width: 20px;
-	height: 20px;
 	position: absolute;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	right: -10px;
 	top: -5px;
 }

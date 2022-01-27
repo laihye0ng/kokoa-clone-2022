@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	bottom: 0;
 	padding: 20px 40px;
-	border-top: 1px solid rgb(80,80,88);
+	border-top: var(--gray-border);
 	background-color: rgb(60,60,66);
 }
 

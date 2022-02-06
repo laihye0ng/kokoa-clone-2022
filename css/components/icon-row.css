@@ -3,10 +3,11 @@
 	justify-content: space-between;
 	padding-bottom: 25px;
 	border-bottom: var(--gray-border);
+	flex-flow: wrap;
 }
 
 .icon-row__icon {
-	width: 18%;
+	width: 90px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

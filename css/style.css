@@ -7,6 +7,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -14,6 +15,8 @@
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 * {
 	color: white;
@@ -22,6 +25,7 @@
 
 body {
 	background-color: var(--background);
+	height: 1000px;
 }
 
 input:focus {
@@ -30,4 +34,8 @@ input:focus {
 
 .main-screen {
 	padding: 0px var(--horizontal-space);
+}
+
+a {
+ text-decoration: none;
 }

@@ -22,34 +22,44 @@
 		</div>		
 	</div>
 	
-	<header class="screen-header">
-		<h1 class="screen-header__title">Chats</h1>
-		<div class="screen-header__icons">
-			<span><i class="fas fa-search fa-lg"></i></span>
-			<span><i class="far fa-comment-dots fa-lg"></i></span>
-			<span><i class="fas fa-music fa-lg"></i></span>
-			<span><a href="settings.html" ><i class="fas fa-cog fa-lg"></i></a></span>
+	<header class="alt-header">
+		<div class="alt-header__column">
+			<a href="friends.html"><i class="fas fa-angle-left"></i></a>
+		</div>
+		<div class="alt-header__column">
+			<span class="alt-header__title">
+				Settings
+			</span>
+		</div>
+		<div class="alt-header__column">
+			<i class="fas fa-search"></i>
 		</div>
 	</header>
 
-	<main class="main-screen">
-		<a href="chat.html">
-			<div class="user-component">
-				<div class="user-component__column">
-					<img  class="user-component__avatar" src="https://pbs.twimg.com/profile_images/1470651545930780673/tj6t0_xQ_400x400.jpg" />
-					<div class="user-component__text">
-						<h4 class="user-component__title">Bonobono</h4>
-						<h6 class="user-component__subtitle">헛소리하지 마 인마</h6>
-					</div>
+	<main class="main-screen setting-screen">
+		<ul class="settings-list">
+			<li class="settings__setting">
+				<div class="settings__setting-column">
+					<i class="fas fa-bullhorn"></i>
+					<span>Notices</span>
 				</div>
-				<div class="user-component__column">
-					<div class="chats__info">
-						<p class="chats__time">22:22</p>
-						<span class="chats__notification badge">1</span>
-					</div>
+				<div class="settings__setting-column"></div>
+			</li>
+			<li class="settings__setting">
+				<div class="settings__setting-column">
+					<i class="fas fa-flask"></i>
+					<span>Kakao Lab</span>
 				</div>
-			</div>
-		</a>
+				<div class="settings__setting-column"></div>
+			</li>
+			<li class="settings__setting">
+				<div class="settings__setting-column">
+					<i class="fas fa-info-circle"></i>
+					<span>Version</span>
+				</div>
+				<div class="settings__setting-column">Latest Version</div>
+			</li>
+		</ul>
 	</main>
 
 	<nav class="nav">
@@ -60,7 +70,7 @@
 				</a>
 			</li>
 			<li class="nav__btn">
-				<a class="nav__link">
+				<a class="nav__link" href="chats.html">
 					<span class="nav__notification badge">1</span>
 					<i class="fas fa-comment fa-lg"></i>
 				</a>

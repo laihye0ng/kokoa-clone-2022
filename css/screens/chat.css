@@ -77,3 +77,78 @@
 .sent .message__info {
 	flex-direction: row-reverse;
 }
+
+.chat-interface {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding: 4px 0px;
+	position: fixed;
+	bottom: 0;
+}
+
+.chat-interface__column:first-child {
+ width: 13%;
+ display: flex;
+ justify-content: center;
+}
+
+.chat-interface__column:first-child i {
+	display: flex;
+	width: 24px;
+	height: 24px;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 15px;
+	border: 2px solid black;
+	border-radius: 35%;
+	opacity: 0.4;
+}
+
+.chat-interface__column:last-child {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 85%;
+}
+
+.chat-interface__column:last-child input {
+	font-size: 15px;
+	padding: 0px 15px;
+	background-color: rgb(245, 245, 245);
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid rgb(220, 220, 220);
+}
+
+.chat-interface__btns {
+	display: flex;
+	position: absolute;
+	right: 5px;
+	align-items: center;
+}
+
+
+.chat-interface__btns .fa-kiss-beam {
+	opacity: 0.5;
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.chat-interface__send {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: var(--yellow);
+	border: 0.5px solid rgb(220, 220, 220);
+}
+
+.chat-interface__send:focus,
+.chat-interface__send:active {
+	outline: none;
+}

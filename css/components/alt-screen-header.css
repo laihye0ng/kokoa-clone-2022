@@ -9,6 +9,7 @@
 	padding: 15px;
 	box-sizing: border-box;
 	background-color: inherit;
+	z-index: 2;
 }
 
 .alt-header__column:first-child {

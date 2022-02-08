@@ -103,7 +103,24 @@
 	border-radius: 9px;
 }
 
+@keyframes heartBump {
+	35% {
+		color: white;
+		transform: none;
+	}
+	50% {
+		color: pink;
+		transform: scale(1.2);
+	}
+	65% {
+		color: white;
+		transform: none;
+	}
+}
+
 .open-post__like i {
+	will-change: transform;
+	animation: heartBump 1s ease-in-out infinite;
 	margin-right: 5px;
 	font-size: 6px;
 }
